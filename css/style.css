@@ -7,6 +7,20 @@
     width: 100%;
     height: 100%;
   }
+ #demo{
+ 	/*position: relative;
+ 	top:-85px;
+ 	left:0px;*/
+ 
+ }
+ .navbar{
+ 	opacity: 0.65;
+ 	z-index: 100;
+ 	background: gray !important;
+ 	width: 100%;
+ 	border-bottom: 2px solid black ;
+
+ }
 
   img {
     
@@ -16,7 +30,8 @@
 }
 
 .navbar-inner {
-    background:transparent;
+    /*background:white;*/
+    
 }
 .navbar-brand{
 
@@ -24,6 +39,7 @@
 	font-family: 'Neuton', serif;
 	
 }
+
 
 h3{
 	font-family: 'Open Sans', sans-serif;
@@ -35,6 +51,15 @@ h3{
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+h5.counter {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    p.para-w3pvt {
+        font-size: 1em;
+        margin-left: 0.5em;
+    }
 
 .services {
     background: url('https://www.w3schools.com/bootstrap4/la.jpg') no-repeat top;
