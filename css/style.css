@@ -11,15 +11,33 @@
  	/*position: relative;
  	top:-85px;
  	left:0px;*/
+
+ 	/*margin-top: 30px; *//* Add a top margin to avoid content overlay */
  
  }
+ .logo{
+ 	float:left ;
+ }
+ .navbarTogglerDemo02{
+ 	float:right ;
+ }
  .navbar{
- 	opacity: 0.65;
+ 	position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+ 	opacity: 0.95;
  	z-index: 100;
  	background: gray !important;
  	width: 100%;
  	border-bottom: 2px solid black ;
 
+ }
+
+ li:before{
+ 	
+ 	content: &raquo;
+    display: block;
+    float: left;
+    width: 1.2em;
  }
 
   img {
